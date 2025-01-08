@@ -8,16 +8,10 @@ body {
     color: #434455;
 }
 .header-nav{
-    border-bottom: 1px solid #e7e9fc;
-        width: 1440px;
-        height: 72px;
-        background: #fff;
-}
-.logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.17;
+        line-height: 1.7;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
@@ -28,76 +22,41 @@ body {
 .logo-white{
     color: #f4f4fd;
 }
-.link-text{
-    font-weight: 500;
-    color: #2e2f42;
-} 
-.header-1{
+.section-1{
     background: #2e2f42;
-    width: 1440px;
-    height: 600px;
 }
-title {
+.title{
     font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07143;
-        color: #fff;
+    font-size: 56px;
+    line-height: 1.07143;
+    text-align: center;
+    color: #fff;
 }
 .button{
+    background: #4d5ae5;
     font-weight: 500;
     letter-spacing: 0.04em;
     color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
-    cursor: pointer;
 }
-.header-2{
-    width: 1128px;
-    height: 104px;
-}
-.head-3 {
-    font-weight: 500;
-    font-size: 20px;
-    color: #2e2f42;
-    line-height: 1.2;
-}
-.header-3{
-    background: #f4f4fd;
-    width: 1440px;
-    height: 732px;
-}
-.header-4{
-    width: 1128px;
-    height: 1000px;
-}
-.head-2 {
-    font-size: 36px;
-    font-weight: 700;
-    color: #2e2f42;
-    line-height: 1.11111;
-}
-
-.header-3 {
-    font-weight: 500;
-    font-size: 20px;
-    color: #2e2f42;
-    line-height: 1.2;
-}
-.footer{
-    background: #2e2f42;
-    width: 1440px;
-    height: 312px;
-}
-.text-footer{
-        color: #f4f4fd;
-}
-
 .sr-only {
     visibility: hidden;
 }
-a{
-    text-decoration: none;
+.head-3{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: #2e2f42;
 }
-ul{
-    list-style-type: none;
+.section-3{
+    background: #f4f4fd;
+}
+.head-2{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        text-align: center;
+        color: #2e2f42;
+}
+.footer{
+    background: #2e2f42;
 }
