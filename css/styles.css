@@ -7,11 +7,17 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
+.header-nav{
+    border-bottom: 1px solid #e7e9fc;
+        width: 1440px;
+        height: 72px;
+        background: #fff;
+}
 .logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
@@ -25,11 +31,13 @@ body {
 .link-text{
     font-weight: 500;
     color: #2e2f42;
-}
-.header{
+} 
+.header-1{
     background: #2e2f42;
+    width: 1440px;
+    height: 600px;
 }
-.title {
+title {
     font-weight: 700;
         font-size: 56px;
         line-height: 1.07143;
@@ -43,10 +51,26 @@ body {
     background: #4d5ae5;
     cursor: pointer;
 }
-.team{
-    background: #f4f4fd;
+.header-2{
+    width: 1128px;
+    height: 104px;
 }
-.header-2 {
+.head-3 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2e2f42;
+    line-height: 1.2;
+}
+.header-3{
+    background: #f4f4fd;
+    width: 1440px;
+    height: 732px;
+}
+.header-4{
+    width: 1128px;
+    height: 1000px;
+}
+.head-2 {
     font-size: 36px;
     font-weight: 700;
     color: #2e2f42;
@@ -61,6 +85,8 @@ body {
 }
 .footer{
     background: #2e2f42;
+    width: 1440px;
+    height: 312px;
 }
 .text-footer{
         color: #f4f4fd;
