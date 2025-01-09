@@ -8,13 +8,16 @@ body {
     color: #434455;
 }
 .header-nav{
+        color: #4d5ae5;
+}
+.logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-        font-size: 18px;
-        line-height: 1.7;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 .logo-black{
     color: #2e2f42;
@@ -22,29 +25,62 @@ body {
 .logo-white{
     color: #f4f4fd;
 }
+.link-text{
+    font-weight: 500;
+    color: #2e2f42;
+
+}
+.link-text:hover:focus {
+    color: #404bbf;
+    text-decoration: underline;
+}
+.address{
+    font-style: normal
+}
+.address-1{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.address-1:hover:focus{
+    color: #404bbf
+}
 .section-1{
     background: #2e2f42;
 }
 .title{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
 .button{
+    font-family: "Roboto", sans-serif;
     background: #4d5ae5;
     font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    cursor: pointer
+}
+.button:hover:focus{
+  background-color:#404BBF;
 }
 .sr-only {
     visibility: hidden;
+}
+.section-2{
+    background-color: #FFFFFF
 }
 .head-3{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
+letter-spacing: 0.02em;
 color: #2e2f42;
 }
 .section-3{
@@ -53,10 +89,22 @@ color: #2e2f42;
 .head-2{
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.1;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
         text-align: center;
         color: #2e2f42;
 }
+.text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 .footer{
     background: #2e2f42;
+}
+.text-footer{
+        line-height: 1.5;
+        color: #f4f4fd;
 }
