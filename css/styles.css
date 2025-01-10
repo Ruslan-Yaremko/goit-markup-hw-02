@@ -1,15 +1,163 @@
-body {
-    font-family: "Roboto", sans-serif;
-    background: #FFFFFF;
+body{
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color:#FFFFFF
+}
+
+.header-nav {}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4d5ae5;
+}
+
+.logo-black {
+    color:#2e2f42;
+
+}
+
+.link-text {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.link-text:hover,
+.link-text:focus,
+.address-1:hover,
+.business-button{
+     color: #404bbf;
+}
+   
+
+.address {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.header-nav{
-        color: #4d5ae5;
+
+.business {
+    background: #2e2f42;
 }
+
+.business-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.business-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4d5ae5;
+}
+
+.strategy {}
+
+.sr-only {}
+
+.strategy-list {}
+
+.strategy-iteil {}
+ 
+.strategy-head {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.strategy-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team {
+    background: #f4f4fd;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-list {}
+
+.team-iteil {}
+
+.team-img {}
+
+.team-head {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.portfolio {}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.portfolio-list {}
+
+.portfolio-iteil {}
+
+.portfolio-head {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.footer{
+    background: #2e2f42;
+}
+
 .logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -19,92 +167,15 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.logo-black{
-    color: #2e2f42;
-}
-.logo-white{
-    color: #f4f4fd;
-}
-.link-text{
-    font-weight: 500;
-    color: #2e2f42;
 
+.logo-white {
+    color: #FFFFFF;
 }
-.link-text:hover:focus {
-    color: #404bbf;
-    text-decoration: underline;
-}
-.address{
-    font-style: normal
-}
-.address-1{
+
+.text-footer {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
-}
-.address-1:hover:focus{
-    color: #404bbf
-}
-.section-1{
-    background: #2e2f42;
-}
-.title{
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
-}
-.button{
-    font-family: "Roboto", sans-serif;
-    background: #4d5ae5;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-    cursor: pointer
-}
-.button:hover:focus{
-  background-color:#404BBF;
-}
-.sr-only {
-    visibility: hidden;
-}
-.section-2{
-    background-color: #FFFFFF
-}
-.head-3{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
-}
-.section-3{
-    background: #f4f4fd;
-}
-.head-2{
-    font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        text-align: center;
-        color: #2e2f42;
-}
-.text{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.footer{
-    background: #2e2f42;
-}
-.text-footer{
-        line-height: 1.5;
         color: #f4f4fd;
 }
