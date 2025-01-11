@@ -30,7 +30,7 @@ ul {
 
 }
 
-.link-text {
+.link-nav {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -38,31 +38,26 @@ ul {
     color: #2e2f42;
 }
 
-.link-text:hover{
+.link-nav:hover{
     color:#404bbf
 }
 
-.link-text:focus{
+.link-nav:focus{
     color:#404bbf ;
 }
    
 
-.address {
+.address-text{
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.address-1{
-    color: #434455;
-}
+.address-1{}
 
-.address-1:hover{
-    color: #404bbf;
-}
-
-.address-1:focus{
+.address-text:hover,
+.address-text:focus{
     color: #404bbf;
 }
 
@@ -90,7 +85,8 @@ ul {
     cursor: pointer;
 }
 
-.business-button:hover{
+.business-button:hover,
+.business-button:focus{
    background-color: #404BBF;
 }
 
