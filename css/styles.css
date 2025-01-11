@@ -46,17 +46,15 @@ ul {
     color:#404bbf ;
 }e
    
-.address{
-    font-style: normal;
-}
-
 .address-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.address-1{}
+.address-1{
+    font-style: normal;
+}
 
 .address-text:hover,
 .address-text:focus{
