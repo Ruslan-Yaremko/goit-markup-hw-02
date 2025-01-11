@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 1.21;
     color: #434455;
     background-color:#FFFFFF;
@@ -46,9 +46,11 @@ ul {
     color:#404bbf ;
 }
    
+.adress{
+    font-style: normal;
+}
 
 .address-text{
-    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
