@@ -1,6 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.21;
+    color: #434455;
+    background-color:#FFFFFF;
 }
 
 a {
@@ -49,11 +51,12 @@ ul {
     color: #2e2f42;
 }
 
-.link-text:hover,
-.link-text:focus,
-.address-1:hover,
-.business-button{
-     color: #404bbf;
+.link-text:hover{
+    color:#404bbf
+}
+
+.link-text:focus{
+    color:#404bbf ;
 }
    
 
@@ -63,6 +66,17 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.address-1{
+    color: #434455;
+}
+
+.address-1:hover{
+    color: #404bbf;
+}
+
+.address-1:focus{
+    color: #404bbf;
 }
 
 .business {
@@ -79,6 +93,7 @@ ul {
 }
 
 .business-button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -87,9 +102,11 @@ ul {
     background: #4d5ae5;
 }
 
-.strategy {}
+.business-button:hover{
+   background-color: #404BBF;
+}
 
-.sr-only {}
+.strategy {}
 
 .strategy-list {}
 
@@ -107,10 +124,11 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color:#434455;
 }
 
 .team {
-    background: #f4f4fd;
+    background-color: #FFFFFF;
 }
 
 .team-title {
@@ -120,6 +138,7 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .team-list {}
@@ -142,6 +161,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    color:#434455;
 }
 
 .portfolio {}
@@ -172,6 +192,7 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color:#434455;
 }
 
 .footer{
@@ -189,13 +210,14 @@ ul {
 }
 
 .logo-white {
-    color: #FFFFFF;
+    color: #f4f4fd;
 }
 
 .text-footer {
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #f4f4fd;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
