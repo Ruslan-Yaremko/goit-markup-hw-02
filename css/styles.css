@@ -13,7 +13,91 @@ ul {
     list-style-type: none;
 }
 
-.header-nav {}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .section {
+     padding-top: 120px;
+     padding-bottom: 120px;
+ }
+
+   .section-item{
+       margin-top: 20px;
+   }
+
+ .container {
+     width: 1158px;
+     margin: 0 auto;
+     padding: 0 15px;
+ }
+
+.div-head{
+    width: 1440px;
+    height: 72px;
+}
+
+.header-nav {
+    padding-left: 156px;
+    padding-right: 156px;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-menu-list{
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.header-navi{
+    box-sizing: border-box;
+    width: 1440px;
+    height: 72px;
+    display: flex;
+    padding: 24px 156px 24px 156px;
+    align-items: center;
+    gap: 76px;
+    justify-content: flex-start;
+}
 
 .logo-link {
     font-family: "Raleway", sans-serif;
@@ -23,6 +107,7 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#4d5ae5;
+    padding-left: 156px;
 }
 
 .logo-black {
@@ -36,6 +121,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24 0 24 0;
 }
 
 .link-nav:hover{
@@ -49,6 +135,14 @@ ul {
 .address{
     font-style: normal;
 }
+
+.address-item{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
+}
    
 .address-text{
     font-size: 16px;
@@ -56,7 +150,8 @@ ul {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.address-1{}
+.address-1{
+}
 
 .address-text:hover,
 .address-text:focus{
@@ -65,6 +160,12 @@ ul {
 
 .business {
     background: #2e2f42;
+}
+
+
+.div-business{
+    width: 1440px;
+    height: 600px;
 }
 
 .business-title {
@@ -94,7 +195,12 @@ ul {
 
 .strategy {}
 
-.strategy-list {}
+.strategy-list {
+    display: flex;
+    padding-left: 156px;
+    padding-right: 156px;
+    gap: 24px;
+}
 
 .strategy-iteil {}
  
@@ -111,6 +217,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
+    padding-top: 8px;
 }
 
 .team {
@@ -128,6 +235,8 @@ ul {
 }
 
 .team-list {
+    display: flex;
+    gap: 24px;
 }
 
 .team-iteil {
@@ -165,7 +274,13 @@ ul {
     text-transform: capitalize;
 }
 
-.portfolio-list {}
+.portfolio-list {
+    flex-wrap: wrap;
+    display: flex;    
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
 
 
 .portfolio-head {
@@ -208,4 +323,6 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    padding-top: 16px;
+    flex-wrap: wrap;
 }
